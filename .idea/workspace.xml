@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="098880c2-7466-40a2-973c-eafd302c13f4" name="Changes" comment="binary search infiniteArray">
-      <change afterPath="$PROJECT_DIR$/src/Bubble_sort/Bubblesort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TWO_D_BinarySearch/RowcolMatrix.java" afterDir="false" />
+    <list default="true" id="098880c2-7466-40a2-973c-eafd302c13f4" name="Changes" comment="Bubblesort">
+      <change afterPath="$PROJECT_DIR$/src/Selection_sort/Selection.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -52,6 +51,7 @@
     "Application.Bubblesort.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.RowcolMatrix.executor": "Run",
+    "Application.Selection.executor": "Debug",
     "Application.ceilingOfaNum.executor": "Debug",
     "Application.count.executor": "Run",
     "Application.fib.executor": "Run",
@@ -104,7 +104,15 @@
       <option name="project" value="LOCAL" />
       <updated>1717139362951</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Bubblesort">
+      <option name="closed" value="true" />
+      <created>1718214099833</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1718214099833</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -123,7 +131,8 @@
     <MESSAGE value="linearsearch" />
     <MESSAGE value="binary search ceiling of number" />
     <MESSAGE value="binary search infiniteArray" />
-    <option name="LAST_COMMIT_MESSAGE" value="binary search infiniteArray" />
+    <MESSAGE value="Bubblesort" />
+    <option name="LAST_COMMIT_MESSAGE" value="Bubblesort" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -137,6 +146,20 @@
           <url>file://$PROJECT_DIR$/src/Bubble_sort/Bubblesort.java</url>
           <line>12</line>
           <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Selection_sort/Selection.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/Selection_sort/Selection.java</url>
+          <line>25</line>
+          <properties class="Selection_sort.Selection" method="getMaxIndex">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="8" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
