@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="098880c2-7466-40a2-973c-eafd302c13f4" name="Changes" comment="Selection Sort">
-      <change afterPath="$PROJECT_DIR$/src/Insertion_sort/InsertionSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Cyclic_sort/Cyclic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Patternprinting/patterns.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -49,6 +50,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.Bubblesort.executor": "Run",
+    "Application.Cyclic.executor": "Debug",
     "Application.InsertionSort.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.RowcolMatrix.executor": "Run",
@@ -58,6 +60,7 @@
     "Application.fib.executor": "Run",
     "Application.infinteArray.executor": "Run",
     "Application.main.executor": "Run",
+    "Application.patterns.executor": "Run",
     "Application.twoDimensional.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
@@ -156,6 +159,11 @@
           <url>file://$PROJECT_DIR$/src/Bubble_sort/Bubblesort.java</url>
           <line>12</line>
           <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Cyclic_sort/Cyclic.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="9" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
