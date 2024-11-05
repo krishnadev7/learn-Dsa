@@ -5,9 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="098880c2-7466-40a2-973c-eafd302c13f4" name="Changes" comment="Selection Sort">
-      <change afterPath="$PROJECT_DIR$/src/Cyclic_sort/Cyclic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Patternprinting/patterns.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Recursion/Binarysearch/Bsrecursion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Recursion/patterns/bubblesort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Recursion/patterns/triangle1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Recursion/patterns/triangle2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Recursion/prodDigit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Recursion/recursion.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Patternprinting/patterns.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Patternprinting/patterns.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,18 +54,24 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Bsrecursion.executor": "Debug",
     "Application.Bubblesort.executor": "Run",
     "Application.Cyclic.executor": "Debug",
     "Application.InsertionSort.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.RowcolMatrix.executor": "Run",
     "Application.Selection.executor": "Run",
+    "Application.bubblesort.executor": "Run",
     "Application.ceilingOfaNum.executor": "Debug",
     "Application.count.executor": "Run",
     "Application.fib.executor": "Run",
     "Application.infinteArray.executor": "Run",
     "Application.main.executor": "Run",
     "Application.patterns.executor": "Run",
+    "Application.prodDigit.executor": "Debug",
+    "Application.recursion.executor": "Debug",
+    "Application.triangle1.executor": "Run",
+    "Application.triangle2.executor": "Run",
     "Application.twoDimensional.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
@@ -164,6 +175,34 @@
           <url>file://$PROJECT_DIR$/src/Cyclic_sort/Cyclic.java</url>
           <line>11</line>
           <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Recursion/recursion.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Recursion/patterns/triangle2.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/Recursion/Binarysearch/Bsrecursion.java</url>
+          <line>8</line>
+          <properties class="Recursion.Binarysearch.Bsrecursion" method="search">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/Recursion/prodDigit.java</url>
+          <line>7</line>
+          <properties class="Recursion.prodDigit" method="prod">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="14" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

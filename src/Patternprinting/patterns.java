@@ -2,7 +2,7 @@ package Patternprinting;
 
 public class patterns {
     public static void main(String[] args) {
-        pattern12(5);
+        pattern17(5);
     }
     static  void pattern1(int n){
         for(int row = 1; row <= n; row++){
@@ -281,6 +281,48 @@ public class patterns {
         }
     }
 
+    /* pattern 12 output
+
+        * * * * *
+         * * * *
+          * * *
+           * *
+            *
+            *
+           * *
+          * * *
+         * * * *
+        * * * * *
+
+     */
+
+    static void pattern17(int n){
+        for(int row = 1; row <= 2*n; row++){
+            int totalNoOfcols = row > n ? 2 * n - row : row;
+            // no of spaces
+            for(int s = 1; s <= n-totalNoOfcols; s++){
+                System.out.print(" ");
+            }
+            for(int col = totalNoOfcols; col >= 1; col--){
+                System.out.print(col);
+            }
+            for(int col = 2; col <= totalNoOfcols; col++){
+                System.out.print(col);
+            }
+            System.out.println();
+        }
+    }
+
+    /*
+        pattern 17 output
+                 1
+                212
+               32123
+              4321234
+               32123
+                212
+                 1
+    */
 
     static  void pattern28(int n){
         for(int row = 0; row <= 2 *n; row++){
@@ -308,5 +350,30 @@ public class patterns {
                * * *
                 * *
                  *
+    */
+
+    static void pattern30(int n){
+        for(int row = 1; row <= n; row++){
+            // no of spaces
+            for(int s = 1; s <= n-row; s++){
+                System.out.print("  ");
+            }
+            for(int col = row; col >= 1; col--){
+                System.out.print(col + " ");
+            }
+            for(int col = 2; col <= row; col++){
+                System.out.print(col+" ");
+            }
+            System.out.println();
+        }
+    }
+
+    /*
+        pattern 28 output
+                1
+              2 1 2
+            3 2 1 2 3
+          4 3 2 1 2 3 4
+        5 4 3 2 1 2 3 4 5
     */
 }
